@@ -17,15 +17,15 @@ int count = 0;
 while (distance > 20)
  {
     if (F1==true)
-    {time=distance/(FriendSpeed2+DogSpeed);
-    //Console.WriteLine("F1 "+distance + " " + time);
-    F1=false;
+     {time=distance/(FriendSpeed2+DogSpeed);
+     //Console.WriteLine("F1 "+distance + " " + time);
+     F1=false;
     }
     else
     {
-    time=distance/(FriendSpeed1+DogSpeed);
-    //Console.WriteLine("F2 "+distance + " " + time);
-    F1=true;
+     time=distance/(FriendSpeed1+DogSpeed);
+     //Console.WriteLine("F2 "+distance + " " + time);
+     F1=true;
     }
     distance=distance-time*(FriendSpeed1+FriendSpeed2);
     count++;
